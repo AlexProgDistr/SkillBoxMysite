@@ -1,0 +1,57 @@
+{% extends 'shopapp/base.html'%}
+{% load i18n %}
+
+{% block title %}
+   {% translate  'Product detail' %}
+{% endblock %}
+
+
+{% block body %}
+    <h1>{% translate  'Name' context 'product name' %}: <strong>{{ product.name }}</strong></h1>
+    <div>
+        <div>{% translate  'Description' %}: <em>{{ product.description }}</em></div>
+        <div>{% translate  'Price' %}: {{ product.price }}</div>
+        <div>{% translate  'Discount' %}: {{ product.discount }}</div>
+        <div>{% translate  'Archived' %}: {{ product.archived }}</div>
+        <div>{% translate  'Created_by' %}: {{ product.created_by.username }} id:{{ product.created_by.pk }}</div>
+        {% if product.preview %}
+          <img src="{{ product.preview.url }}" alt="{{ product.preview.name }}">
+        {% endif %}
+
+        <h3>{% translate  'Gallery' %}:</h3>
+        {% with product.images.all as img_product %}
+        {% blocktranslate count img_count=img_product|length %}
+            one image has been uploaded
+            {% plural %}
+            {{ img_count }} images uploaded
+        {% endblocktranslate %}
+
+        <div>
+            {% for img in img_product %}
+                <div>
+                    <img src="{{ img.image.url }}" alt="{{ img.image.name }}">
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+
+    <div>
+        <a href="{% url 'shopapp:products_list' %}">{% translate  'Back To Products list' %}</a>
+    </div>
+
+    {% if "shopapp.change_product" in perms %}
+        {% if product.created_by.pk == user.pk or user.is_superuser %}
+            <div>
+                <a href="{% url 'shopapp:product_update' pk=product.pk %}">{% translate  'Update product' %}</a>
+            </div>
+        {% endif %}
+    {% endif %}
+
+
+    <div>
+        <a href="{% url 'shopapp:product_delete' pk=product.pk %}">{% translate  'Delete product' %}</a>
+    </div>
+{% endwith %}
+{% endblock %}

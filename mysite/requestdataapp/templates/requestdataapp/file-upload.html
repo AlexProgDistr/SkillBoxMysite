@@ -1,0 +1,31 @@
+{% extends 'requestdataapp/base.html' %}
+
+{% block title %}
+  File upload
+{% endblock %}
+
+{% block body %}
+  <h1>Upload file</h1>
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p>
+      <input type="file" name="myfile">
+    </p>
+    <button type="submit">
+      Upload
+    </button>
+  </form>
+  <div>
+    <p>File size: {{ size|filesizeformat }}</p>
+  </div>
+
+  {% if error_size_file %}
+    <div>
+      <h2 style="color:#FF0000">Error file size</h2>
+      <p>acceptable file size 1M</p>
+    </div>
+  {% endif %}
+
+
+{% endblock %}

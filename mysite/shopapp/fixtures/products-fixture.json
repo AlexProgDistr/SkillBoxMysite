@@ -1,0 +1,288 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop",
+      "description": "it's very smart",
+      "price": "1999.00",
+      "discount": 0,
+      "created_at": "2024-09-17T11:05:14.015Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Desctop",
+      "description": "he preceding example could be si",
+      "price": "2599.00",
+      "discount": 10,
+      "created_at": "2024-09-17T11:05:14.015Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Smartphone",
+      "description": "In the preceding example, the ModelAdmin class doesn’t define any custom values (yet). As a result, the default admin interface will be provided. If you are happy with the default admin interface, you don’t need to define a ModelAdmin object at all – you can register the model class without providing a ModelAdmin description. The preceding example could be simplified to",
+      "price": "987.00",
+      "discount": 25,
+      "created_at": "2024-09-17T11:05:14.015Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "Phone New",
+      "description": "New Phone",
+      "price": "1999.00",
+      "discount": 10,
+      "created_at": "2024-10-13T07:07:58.048Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "product 2",
+      "description": "123ewfwfwvcwvfgdfg",
+      "price": "1003.00",
+      "discount": 12,
+      "created_at": "2024-10-28T19:21:38.861Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 6,
+    "fields": {
+      "name": "prod2",
+      "description": "df'vdfb'dfb'\r\nvldfb",
+      "price": "100.00",
+      "discount": 16,
+      "created_at": "2024-10-29T18:43:44.781Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "qwerty",
+      "description": "апвыапваыпып",
+      "price": "11.01",
+      "discount": 15,
+      "created_at": "2024-10-29T18:44:09.968Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 8,
+    "fields": {
+      "name": "Desctop 3",
+      "description": "Desctop 3 for User Sam",
+      "price": "3000.00",
+      "discount": 15,
+      "created_at": "2024-11-06T11:52:57.500Z",
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Product 4",
+      "description": "sadasdasd",
+      "price": "100.00",
+      "discount": 100,
+      "created_at": "2024-11-06T12:11:09.543Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 10,
+    "fields": {
+      "name": "prod 3",
+      "description": "",
+      "price": "222.00",
+      "discount": 222,
+      "created_at": "2024-11-06T12:53:31.226Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 11,
+    "fields": {
+      "name": "prod 5",
+      "description": "",
+      "price": "222.00",
+      "discount": 222,
+      "created_at": "2024-11-06T12:55:58.174Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 12,
+    "fields": {
+      "name": "prod 4",
+      "description": "",
+      "price": "222.00",
+      "discount": 222,
+      "created_at": "2024-11-06T12:57:24.308Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 13,
+    "fields": {
+      "name": "prod 6",
+      "description": "",
+      "price": "6666.00",
+      "discount": 66,
+      "created_at": "2024-11-06T12:58:10.209Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 14,
+    "fields": {
+      "name": "prod 4",
+      "description": "",
+      "price": "222.00",
+      "discount": 222,
+      "created_at": "2024-11-06T12:59:36.748Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 15,
+    "fields": {
+      "name": "pror 7",
+      "description": "",
+      "price": "777.00",
+      "discount": 7,
+      "created_at": "2024-11-06T12:59:36.866Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 16,
+    "fields": {
+      "name": "prod 8",
+      "description": "",
+      "price": "8888.00",
+      "discount": 888,
+      "created_at": "2024-11-06T13:00:01.298Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 17,
+    "fields": {
+      "name": "Lap 1",
+      "description": "",
+      "price": "1111.00",
+      "discount": 11,
+      "created_at": "2024-11-06T13:01:52.150Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 18,
+    "fields": {
+      "name": "Lap 4",
+      "description": "",
+      "price": "4444.00",
+      "discount": 4,
+      "created_at": "2024-11-06T13:07:53.041Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 19,
+    "fields": {
+      "name": "Lap 5",
+      "description": "",
+      "price": "5555.00",
+      "discount": 5,
+      "created_at": "2024-11-06T13:10:56.380Z",
+      "archived": true,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 20,
+    "fields": {
+      "name": "prod 45",
+      "description": "",
+      "price": "333.00",
+      "discount": 3,
+      "created_at": "2024-11-06T19:17:20.030Z",
+      "archived": false,
+      "created_by": 3
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 21,
+    "fields": {
+      "name": "prod 46",
+      "description": "",
+      "price": "33333.00",
+      "discount": 46,
+      "created_at": "2024-11-07T13:21:43.187Z",
+      "archived": false,
+      "created_by": 2
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 22,
+    "fields": {
+      "name": "prod 5",
+      "description": "",
+      "price": "5555.00",
+      "discount": 55,
+      "created_at": "2024-11-07T19:12:44.261Z",
+      "archived": false,
+      "created_by": 2
+    }
+  }
+]
