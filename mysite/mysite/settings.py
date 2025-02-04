@@ -28,7 +28,7 @@ DATABASE_DIR.mkdir(exist_ok=True)
 SECRET_KEY = getenv("DJANGO_SECRET_KEY", 'django-insecure-*frr%v^r627%aegjpj4%_gh-mfj656gw@g103++33n7@dz+$j3')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = getenv("DJANGO_DEBUG", '0') == '1'
+DEBUG = getenv("DJANGO_DEBUG", '1') == '1'
 
 ALLOWED_HOSTS = ["0.0.0.0", "127.0.0.1"] + getenv("DJANGO_ALLOWED_HOSTS", "").split(",")
 INTERNAL_IPS = ["127.0.0.1",]
